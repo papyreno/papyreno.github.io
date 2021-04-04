@@ -18,6 +18,8 @@ $ npm run generate
 
 # deploy on github pages
 $ npm run generate
+$ git commit
+$ git push
 $ npm run deploy
 ```
 
