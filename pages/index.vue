@@ -4,7 +4,7 @@
       <Logo />
       <p class="nes-text is-primary">test</p>
       <h1 class="title">
-        bbbb
+        cccc
       </h1>
       <div class="links">
         <a
