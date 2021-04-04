@@ -7,7 +7,7 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "sh deploy.sh"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "core-js": "^3.10.0",
@@ -19,6 +19,7 @@
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "nuxt-vite": "^0.0.36",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "push-dir": "^0.4.1"
   }
 }
