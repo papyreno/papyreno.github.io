@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+@import "../mixins/mixins";
+
+.theme-8bit {
+  @include fonts('Press Start 2P');
+
+  .theme-selector {
+    @extend .nes-container !optional;
+    @extend .with-title !optional;
+
+    .legend {
+      @extend .title !optional;
+      width: auto !important;
+    }
+
+    input[type=radio] {
+      @extend .nes-radio !optional;
+    }
+  }
+}

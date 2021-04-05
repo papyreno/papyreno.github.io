@@ -1,4 +1,4 @@
-# aaaa
+# papyreno.github.io
 
 ## Build Setup
 
@@ -15,12 +15,6 @@ $ npm run start
 
 # generate static project
 $ npm run generate
-
-# deploy on github pages
-$ npm run generate
-$ git commit
-$ git push
-$ npm run deploy
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

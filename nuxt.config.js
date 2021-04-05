@@ -11,7 +11,7 @@ export default {
   head: {
     title: 'aaaa',
     htmlAttrs: {
-      lang: 'fr'
+      lang: 'fr',
     },
     meta: [
       { charset: 'utf-8' },
@@ -21,12 +21,15 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css?family=Press+Start+2P' }
-    ]
+    ],
+    bodyAttrs: {
+      class: ['theme-regular']
+    }
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-    '@@/node_modules/nes.css/css/nes.min.css'
+    '@@/assets/scss/main.scss'
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
